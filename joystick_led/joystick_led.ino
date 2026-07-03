@@ -1,5 +1,5 @@
 // Joystick-controlled 4-LED direction indicator
-// Arduino UNO
+
 
 const int VRX_PIN = A0;   // Joystick X-axis (Left/Right)
 const int VRY_PIN = A1;   // Joystick Y-axis (Up/Down)
@@ -18,7 +18,7 @@ void setup() {
   pinMode(LED_DOWN, OUTPUT);
   pinMode(LED_LEFT, OUTPUT);
   pinMode(LED_RIGHT, OUTPUT);
-  Serial.begin(9600); // for debugging raw joystick values
+  Serial.begin(9600); 
 }
 
 void loop() {
@@ -48,5 +48,5 @@ void loop() {
   Serial.print("X: "); Serial.print(xVal);
   Serial.print(" | Y: "); Serial.println(yVal);
 
-  delay(50); // small debounce/smoothing
+  delay(50); 
 }
