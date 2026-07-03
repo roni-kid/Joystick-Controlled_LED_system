@@ -44,4 +44,4 @@ Each LED: anode → pin through 220Ω resistor, cathode → GND.
 
 ## Author
 
-Built as a personal side project outside of coursework — Level 100 Computer Engineering student at GCTU.
+RoniKid
